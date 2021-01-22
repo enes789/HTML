@@ -1,0 +1,72 @@
+* {
+    background-color:#000000;
+    
+}
+
+#header h1 {
+    font-family: "Lobster", cursive;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+span {
+    color: #FF0000;
+}
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 20px;
+}
+
+#main{
+    width:80%;
+    margin:auto; 
+    height:275px;
+}
+
+#main p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: white;
+}
+
+#list {
+    width:80%;
+    margin:auto;
+    
+    
+}
+
+#list li {
+    color: white;
+    font-size: 23px;
+    line-height: 1.8;
+}
+
+#list h1 {
+    color: white;
+    font-family: "Lobster", cursive;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+#footer {
+    color: white;
+    width:80%;
+    margin: 50px 50px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#tribute-link {
+    color: red;
+}
+
+#tribute-link:hover {
+    color: #fff;
+}
