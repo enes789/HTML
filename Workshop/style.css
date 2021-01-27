@@ -1,0 +1,86 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#branding {
+    font-family: "Audiowide", sans-serif;
+}
+
+span {
+    color: red;
+}
+
+#header h1 {
+    color: white;
+    font-size: 32;
+}
+
+#header {
+    background-color: black;
+    border-bottom: 5px solid red;
+    
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#header li {
+    display: inline;
+    padding: 0 20px;
+    font-size: 16px;
+    
+}
+
+#main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+      url("banner.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 90vh;
+}
+  
+#main h1 {
+    font-size: 60px;
+    margin: 200px 0 10px;
+    font-family: "Audiowide", sans-serif;
+}
+  
+#main p {
+    font-size: 30px;
+    font-family: "Audiowide", sans-serif;
+}
+
+#about, #contact {
+    background-color: black;
+}
+#about h2, #contact h2 {
+    color: red;
+    font-size: 30px;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+}
+
+#about p, #contact p{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 0 10px;
+}
